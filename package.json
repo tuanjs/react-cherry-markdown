@@ -1,6 +1,5 @@
 {
-  "private": true,
-  "name": "react-cherry-markdown",
+  "name": "@sjognad/react-cherry-markdown",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
@@ -11,10 +10,16 @@
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
-    "prepublishOnly": "npm run build"
+    "preversion": "npm run build",
+    "postversion": "npm publish",
+    "postpublish": "git push --follow-tags"
   },
   "module": "es/index.js",
   "typings": "es/index.d.ts",
+  "files": [
+    "es",
+    "style"
+  ],
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
@@ -27,7 +32,7 @@
     ]
   },
   "dependencies": {
-    "react": "^16.12.0 || ^17.0.0"
+    "cherry-markdown": "^0.6.4"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.15.1",
@@ -40,6 +45,18 @@
     "gh-pages": "^3.0.0",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "yorkie": "^2.0.0"
-  }
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "optionalDependencies": {
+    "echarts": "^5.2.2",
+    "mathjax": "^3.2.0"
+  },
+  "author": "jaredjywang",
+  "license": "MIT"
 }
