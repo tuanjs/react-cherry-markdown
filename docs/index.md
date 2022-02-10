@@ -21,5 +21,5 @@ footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](http
 ## Hello react-cherry-markdown!
 
 ```bash
-npm i @@sjognad/react-cherry-markdown
+npm i @sjognad/react-cherry-markdown
 ```
