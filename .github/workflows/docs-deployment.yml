@@ -1,4 +1,4 @@
-name: Docs Deployment
+name: dumi-build-docs
 on:
   push:
     branches:
@@ -16,4 +16,9 @@ jobs:
           node-version: '16'
       - run: npm ci
       - run: npm run docs:build
-      - run: npm run docs:deploy
+      - name: deploy with gh-pages
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npm run deploy -- -u "dumi-build-docs stillba@icloud.com"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
