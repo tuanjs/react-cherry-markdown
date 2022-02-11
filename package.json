@@ -1,6 +1,6 @@
 {
   "name": "@sjognad/react-cherry-markdown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
