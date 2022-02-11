@@ -2,6 +2,8 @@
 
 ![GitHub Pages](https://github.com/dangojs/react-cherry-markdown/actions/workflows/docs-deployment.yml/badge.svg)
 
+✨ A React Markdown Editor
+
 ## Getting Started
 
 Install dependencies,
