@@ -68,3 +68,7 @@ export default () => {
   );
 };
 ```
+
+## Configuration
+
+[Tencent cherry-markdown configuration](https://github.com/Tencent/cherry-markdown/blob/main/docs/configuration.md)
