@@ -1,8 +1,8 @@
 # react-cherry-markdown
 
-![GitHub Pages](https://github.com/dangojs/react-cherry-markdown/actions/workflows/docs-deployment.yml/badge.svg)
-
 ✨ A React Markdown Editor
+
+![GitHub Pages](https://github.com/dangojs/react-cherry-markdown/actions/workflows/docs-deployment.yml/badge.svg)
 
 ## Getting Started
 

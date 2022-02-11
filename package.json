@@ -62,8 +62,13 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "react",
+    "markdown-editor"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dangojs/react-cherry-markdown"
-  }
+    "url": "git+https://github.com/dangojs/react-cherry-markdown.git"
+  },
+  "homepage": "https://github.com/dangojs/react-cherry-markdown#readme"
 }
