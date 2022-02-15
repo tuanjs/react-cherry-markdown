@@ -14,4 +14,12 @@ export default defineConfig({
   externals: {
     jsdom: 'var {}',
   },
+  extraBabelPlugins: [
+    [
+      '@babel/plugin-transform-react-jsx',
+      {
+        runtime: 'automatic',
+      },
+    ],
+  ],
 });
