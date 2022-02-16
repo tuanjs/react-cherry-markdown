@@ -1,6 +1,6 @@
 {
   "name": "@tuan/react-cherry-markdown",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
