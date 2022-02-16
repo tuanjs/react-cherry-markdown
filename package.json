@@ -1,5 +1,5 @@
 {
-  "name": "@tuan/react-cherry-markdown",
+  "name": "@tuanjs/react-cherry-markdown",
   "version": "2.0.0",
   "scripts": {
     "start": "dumi dev",
