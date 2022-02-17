@@ -4,7 +4,7 @@ title: 基础示例
 
 ```tsx
 // import React from 'react';
-import { CherryEditor } from '@sjognad/react-cherry-markdown';
+import { CherryEditor } from '@tuanjs/react-cherry-markdown';
 import * as echarts from 'echarts';
 import MathJax from 'mathjax/es5/tex-svg';
 
